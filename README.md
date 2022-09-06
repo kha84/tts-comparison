@@ -1,7 +1,9 @@
 ## What is this all about?
 
 A simple script to compare the performance (using your own machine! as this performance will vary) of various **Coqui-AI TTS** models and vocoders.
-Generates an HTML report like this, which you can sort and playback different WAV results to hear the difference yourself.
+Generates an HTML report like this, which you can sort and playback different WAV results to hear the difference yourself:
+
+![Example report](https://github.com/kha84/tts-comparison/raw/32edd65d6050a8929b9bcd88c0069a1416c89c8f/report.png)
 
 Read more about what is [Coqui-AI TTS on appropriate repo](https://github.com/coqui-ai/TTS)
 
@@ -32,7 +34,3 @@ model files being cached, etc etc. So running the whole stuff over and over agai
 
 Then run **collect.sh** script without any parameters. It does some primitive logs parsing and generates HTML report you can open with your browser.
 Click on a table header will sort the table by values of that column.
-
-## Example report
-
-!(https://github.com/kha84/tts-comparison/raw/32edd65d6050a8929b9bcd88c0069a1416c89c8f/report.png)
