@@ -19,7 +19,7 @@ do
   if [[ "$mod_name" =~ ^tts ]]; then
     # if the speakers list file is not there - let's generate it
     if [[ ! -f "${speakers_list}" ]]; then
-      tts --model_name "$mod_name" --list_speaker_idxs > ${speakers_list}.raw
+      tts --model_name "$mod_name" --list_speaker_idxs > ${speaker_list}.raw
       ec=$?
       # if the result of previous command was successfull, we have captured speakers from the current model
       # given it is a garbage unformatted output from python, we need to do some preprocessing
