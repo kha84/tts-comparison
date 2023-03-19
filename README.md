@@ -12,12 +12,18 @@ Read more about what is [Coqui-AI TTS on appropriate repo](https://github.com/co
 1. Make sure you have TTS installed. On Linux it's usually done with:
 
 ```
+# create a local virtual env to not clutter your system & activate it 
+pip3 -m venv ./venv
+. ./venv/bin/activate
+# install dependencies
 pip3 install TTS
 ```
 
-but on Windows 10 it's a bit more tricky.
-You'll need to install Python 3.9, as I tested that with 3.10 - it doesn't work.
-You'll also need to install [Visual Studio Installer](https://visualstudio.microsoft.com/downloads/) and make sure to install Windows 10 SDK.
+On Windows 10 it's a bit more tricky:
+* You'll need to install Python 3.9, as I tested that with 3.10 - it doesn't work.
+* You'll also need to install [Visual Studio Installer](https://visualstudio.microsoft.com/downloads/) and make sure to install Windows 10 SDK.
+
+2. On Linux you'll also need `espeak` or `espeak-ng` packages installed for some of the models 
 
 ## Usage
 
@@ -34,3 +40,7 @@ model files being cached, etc etc. So running the whole stuff over and over agai
 
 Then run **collect.sh** script without any parameters. It does some primitive logs parsing and generates HTML report you can open with your browser.
 Click on a table header will sort the table by values of that column.
+
+## Cleanup notes
+
+Make sure to look into ~/.local/share/tts/ and delete all the model files, if you done with your comparison - they might take some great amount of space.
