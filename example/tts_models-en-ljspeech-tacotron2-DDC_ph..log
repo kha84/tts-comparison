@@ -1,0 +1,81 @@
+ > tts_models/en/ljspeech/tacotron2-DDC_ph is already downloaded.
+ > vocoder_models/en/ljspeech/univnet is already downloaded.
+ > Using model: Tacotron2
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:True
+ | > symmetric_norm:True
+ | > mel_fmin:50.0
+ | > mel_fmax:7600.0
+ | > pitch_fmin:0.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:/home/alx84/.local/share/tts/tts_models--en--ljspeech--tacotron2-DDC_ph/scale_stats.npy
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Model's reduction rate `r` is set to: 2
+ > Vocoder Model: univnet
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:True
+ | > symmetric_norm:True
+ | > mel_fmin:50.0
+ | > mel_fmax:7600.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:/home/alx84/.local/share/tts/vocoder_models--en--ljspeech--univnet/scale_stats.npy
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Generator Model: univnet_generator
+ > Discriminator Model: univnet_discriminator
+ > Text: This is a test using one of many voices
+ > Text splitted to sentences.
+['This is a test using one of many voices']
+ > Processing time: 1.0894947052001953
+ > Real-time factor: 0.3540344000481064
+ > Saving output to tts_models-en-ljspeech-tacotron2-DDC_ph..wav

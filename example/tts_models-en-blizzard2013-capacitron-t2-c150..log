@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/alx84/Projects/tts-comparison/venv/bin/tts", line 8, in <module>
+    sys.exit(main())
+  File "/home/alx84/Projects/tts-comparison/venv/lib/python3.10/site-packages/TTS/bin/synthesize.py", line 294, in main
+    model_path, config_path, model_item = manager.download_model(args.model_name)
+  File "/home/alx84/Projects/tts-comparison/venv/lib/python3.10/site-packages/TTS/utils/manage.py", line 236, in download_model
+    model_item = self.models_dict[model_type][lang][dataset][model]
+KeyError: 'capacitron-t2-c150'

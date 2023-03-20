@@ -5,6 +5,8 @@ Generates an HTML report like this, which you can sort and playback different WA
 
 ![Example report](https://github.com/kha84/tts-comparison/raw/32edd65d6050a8929b9bcd88c0069a1416c89c8f/report.png)
 
+(Example report with generated wav files can be found in "example" directory) 
+
 Read more about what is [Coqui-AI TTS on appropriate repo](https://github.com/coqui-ai/TTS)
 
 ## Requirements
